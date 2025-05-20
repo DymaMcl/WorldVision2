@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace eUseControl.BusinessLogic.Interfaces
 {
-    interface IProfile
+    public interface IProfile
     {
+        int Id { get; set; }
+        string Username { get; set; }
+        string Email { get; set; }
     }
 }
