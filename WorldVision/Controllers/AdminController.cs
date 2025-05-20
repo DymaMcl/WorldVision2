@@ -1,4 +1,4 @@
-using eUseControl.Web.Extension;
+﻿using eUseControl.Web.Extension;
 using System;
 using System.Web;
 using System.Web.Mvc;
@@ -10,7 +10,7 @@ namespace WorldVision.Web.Controllers
     {
         [AdminMode]
         public ActionResult Index()
-        {
+        {s
             SessionStatus();
             if ((string)System.Web.HttpContext.Current.Session["LoginStatus"] != "login")
             {
